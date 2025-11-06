@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #222;
+}
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:focus, nav ul li a:hover {
+  outline: 2px solid yellow;
+  text-decoration: underline;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+input, textarea, button {
+  padding: 10px;
+  font-size: 1em;
+}
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover, button:focus {
+  background-color: #003580;
+}
+.feedback {
+  text-align: center;
+  margin-top: 10px;
+}
+.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+#toggle-contrast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
